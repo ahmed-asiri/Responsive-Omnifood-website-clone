@@ -1,0 +1,231 @@
+
+/* ----------------------- */
+/* ipad 1024 to 1200px */
+/* ----------------------- */
+
+@media only screen and (max-width: 1200px){
+
+  .hero-text-box {
+    color: #efefef;
+    width: 100%;
+    padding: 0 2%;
+  }
+
+  .row {
+    padding: 0 2%;
+    width: 100%;
+  }
+
+ section h2{
+  font-size: 140%;
+}
+
+  .mix2col {
+    width:55.13%;
+  }
+
+
+  .section-form .col3{
+    width: 37.26%;
+  }
+
+  input[type=text],
+  input[type=email],
+  select,
+  textarea{
+    width: 100%;
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+  }
+  label{
+
+  }
+
+}
+
+/* ----------------------- */
+/* ipad 768 to 1023px */
+/* ----------------------- */
+
+@media only screen and (max-width: 1023px){
+
+body { font-size: 18px; }
+section { padding: 30px 0 0 0; }
+.long-copy { width: 80%; }
+
+.section-steps .col2:first-child { margin-top: 10px; }
+.section-steps .col2:last-child { margin-top: 10px; }
+.works-step{ margin-bottom: 40px; }
+.works-step:last-of-type { margin-bottom: 60px; }
+.app-screen{ width:50%; }
+.btn-app img {
+  height: 40px;
+  margin-top: 10px;
+}
+
+
+.info{ font-size: 90%; }
+.section-cities .col h4{ font-size: 90%; }
+
+
+.section-plans .col3 { font-size: 69% }
+.plan-price { font-size: 310%; }
+.plan-price .span { font-size: 36%; }
+.plan-price-meal { font-size: 90%; }
+
+.footer-nav li { margin-right: 15px; }
+
+}
+
+/* ----------------------- */
+/* small phones to small tablets 481 to 767px */
+/* ----------------------- */
+
+@media only screen and (max-width: 767px){
+
+body{
+  font-size: 14px;
+}
+.section-features .row .col{
+  width:42%;
+  margin: 0 2% 0 4%;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  margin-top: 0px;
+  padding-top: 0;
+}
+.long-copy{
+  margin-bottom: 5px;
+}
+.section-features .row .col p{
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+.section-steps .col2:first-child {margin-right: 0;margin-top: 10px;text-align: center;;width: 40%;}
+.section-steps .col2:last-child { padding: 0;margin-left: 0;margin-top: 10px; width:56%;}
+.works-step{ margin-bottom: 15px;}
+.works-step div{
+  vertical-align: middle;
+  height: 0%;
+  width: 15%;
+  border-radius: 100px;
+}
+.works-step:last-of-type { margin-bottom: 10px; }
+.app-screen{ width:50%; }
+.btn-app img {
+  height: 25px;
+  margin-top: 10px;
+}
+
+
+.section-cities .row .col{
+  width: 48%;
+  font-size: 140%;
+  margin-right: 1%;
+  margin-left: 1%;
+}
+
+
+.section-plans .row .col3{
+  width: 70%;
+  font-size: 130%;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-bottom: 30px;
+}
+
+.footer-nav li { margin-right: 10px; }
+.social-links li{
+  margin-left: 15px;
+}
+}
+
+/* ----------------------- */
+/* Small phones 0 to 480px */
+/* ----------------------- */
+
+@media only screen and (max-width: 480px){
+body{
+  font-size: 10px;
+}
+.long-copy{
+  font-size: 120%;
+}
+.section-features .row .col{
+  width: 80%;
+  margin-right: 10%;
+  margin-left: 10%;
+  font-size: 120%;
+}
+.meals-showcase li{
+  width:50%;
+}
+
+.section-steps .row .col2:first-child {
+
+  margin-top: 10px;
+  width: 100%;
+   text-align: center;}
+.section-steps .col2:last-child {
+  font-size: 180%;
+  padding: 0;
+  margin-top: 10px;
+  width:100%;
+
+}
+.works-step{ margin-bottom: 15px;}
+.works-step div{
+  vertical-align: middle;
+  height: 0%;
+  width: 13%;
+  border-radius: 100px;
+}
+.works-step:last-of-type { margin-bottom: 10px; }
+.app-screen{ width:50%;}
+.btn-app img {
+  height: 30px;
+  margin-top: 30px;
+}
+.btn-app img[alt=apple]{
+  margin-left: 70px;
+}
+.section-cities .row .col{
+  width: 98%;
+  font-size: 220%;
+  margin-right: 1%;
+  margin-left: 1%;
+}
+
+.section-testimonials  .col3 {
+  width:98%;
+  font-size: 160%;
+  padding: 2%;
+  margin-bottom: 15px;
+}
+.section-testimonials  .col3 img{
+  width: 15%;
+}
+.plan-box {
+  font-size: 120%;
+}
+section h2{
+  font-size: 150%;
+}
+footer{
+  font-size: 70%;
+}
+.section-form label {
+  font-size: 140%;
+  line-height: 140%;
+}
+.hero-text-box{
+  padding: 0 4%;
+}
+.main-nav li{
+  display: none;
+}
+}
